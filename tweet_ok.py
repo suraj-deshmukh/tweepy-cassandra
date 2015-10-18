@@ -24,10 +24,10 @@ class client(object):
   result=self.session.execute("select * from %s"%(self.table_name))
   return(result)
 
-consumer_key = '4m891a6vfSXLPS4zqPbMaI8nM'
-consumer_secret = 'JxeoWzECAliGyzIWxabLAinsmxoB48fwFapQ7cqixyXeAQCelV'
-access_token = '400557476-cgR5U27beRVjcLpETfM68bi5cCSTS8e2nKKzIwR0'
-access_secret = '0eORxlTZh03xttApUAAzzx0UTqEBJiFajwQ00qwv3SLRb'
+consumer_key = ''
+consumer_secret = ''
+access_token = ''
+access_secret = ''
  
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(access_token, access_secret)
